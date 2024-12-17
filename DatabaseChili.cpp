@@ -24,7 +24,10 @@ int main(){
                             break;        
                     case 'p':
                             std::cout << "Printing..." << std::endl;
-                            break;        
+                            break;     
+                    default:
+                        std::cout << "Invalid input..." << std::endl;
+                        break;
             }
         }
         return 0;
