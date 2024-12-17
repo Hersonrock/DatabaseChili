@@ -6,7 +6,7 @@ int main()
         bool isRunning = true;
         char opt = '\0';
         while (isRunning) {
-            if (opt == 's') {
+            if (opt == 'q') {
                 return 0;
             }
             std::cout << "(l)load (s)ave (a)dd (q)uit (p)rint"
