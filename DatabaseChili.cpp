@@ -2,6 +2,11 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "It worked!\n";
+        bool isRunning = true;
+        while(isRunning){
+                std::cout << "(l)load (s)ave (a)dd (q)uit (p)rint" 
+                          << std::endl; 
+        }
+
+        return 0;
 }
