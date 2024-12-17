@@ -9,20 +9,20 @@ int main(){
                 << std::endl;
             opt = _getch();
             switch(opt){
-                    case l:
+                    case 'l':
                             std::cout << "Loading..." << std::endl;
                             break;        
-                    case s:
+                    case 's':
                             std::cout << "Saving..." << std::endl;
                             break;        
-                    case a:
+                    case 'a':
                             std::cout << "Adding..." << std::endl;
                             break;        
-                    case q:
+                    case 'q':
                             std::cout << "Bye..." << std::endl;
                             isRunning = false;
                             break;        
-                    case p:
+                    case 'p':
                             std::cout << "Printing..." << std::endl;
                             break;        
             }
